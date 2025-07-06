@@ -5,6 +5,7 @@
 
 ## 🧑‍💻 Takım Üyesi  
 - Oğulcan Tunç Tayan
+- Defne Turğut
 
 ## 📦 Ürün Adı  
 **Lutz**
