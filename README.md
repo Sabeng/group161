@@ -6,6 +6,7 @@
 ## 🧑‍💻 Takım Üyesi  
 - Oğulcan Tunç Tayan
 - Defne Turğut
+- Sema Nur Akdağ
 
 ## 📦 Ürün Adı  
 **Lutz**
