@@ -47,6 +47,9 @@ Projenin temel iskeletini kurmak, arayüz yapısını belirlemek ve kullanıcıd
 
 
 # 🏃 Sprint 1: Frontend Tasarımı ve Backend Temeli 
+## Trello Board
+
+<img width="1069" height="612" alt="Ekran görüntüsü 2025-07-17 145003" src="https://github.com/user-attachments/assets/642aa164-a727-4336-971c-5b6369fada7d" />
 
 ## Burn-Down Chart
 
@@ -60,6 +63,7 @@ Projenin temel iskeletini kurmak, arayüz yapısını belirlemek ve kullanıcıd
 - 🌤️ Mevsim seçme ve 🔍 search bar arayüzü tamamlanacak
 
 ## User Story ve Story Point Tablosu
+- Sprint 1 için tamamlanacak görev puanı toplam 17 puan olarak belirlenmiştir. Görevlere zorluk seviyesine göre story pointler belirlenmiştir. Bu sprint için hedeflenen puan tamamlanmıştır.
 
 | ID     | User Story                                                                                                 | Açıklama                                  | Story Point |
 | ------ | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ----------- |
@@ -95,4 +99,58 @@ Projenin temel iskeletini kurmak, arayüz yapısını belirlemek ve kullanıcıd
 | Ekip içi iletişim iyiydi     | Görsel optimizasyon eksik  | Görsel boyutları normalize edilecek     |
 | UI beğenildi                 | Kodun modülerliği eksik    | Sprint 2’de refactoring yapılacak       |
 
+# 🏃 Sprint 2: Backend Entegrasyonu ve Öneri Sistemi
+## Trello Board
+
+<img width="1072" height="620" alt="Ekran görüntüsü 2025-07-17 145903" src="https://github.com/user-attachments/assets/6082045e-492b-4b63-a1d6-bef1063238ad" />
+
+## Burn-Down Chart
+<img width="2000" height="1200" alt="sprint2_burndown_chart_7_20_temmuz" src="https://github.com/user-attachments/assets/2e50ce98-4a66-40b5-bb0f-9cfa880ddf34" />
+
+## 🎯 Sprint Hedefi
+- 🔗 Search bar ve mevsim seçimlerinin backend’e gönderilmesi  
+- 🤖 Gemini API bağlantısının kurulması  
+- 🧠 Kullanıcı girdileriyle öneri oluşturulması  
+- 🗃️ Veritabanından filtrelenmiş parfüm önerilerinin gösterilmesi  
+
+---
+
+## User Story ve Story Point Tablosu
+- Sprint 2 için tamamlanacak görev puanı toplam 18 puan olarak belirlenmiştir. Görevlere zorluk seviyesine göre story pointler belirlenmiştir. Bu sprint için hedeflenen puan tamamlanmıştır.
+
+| ID   | User Story                                                                                | Story Point |
+| ---- | ----------------------------------------------------------------------------------------- | ----------- |
+| US06 | Bir kullanıcı olarak, arama yaparken mevsimi de seçip öneri almak istiyorum               | 5 SP        |
+| US07 | Bir geliştirici olarak, Gemini API'den gelen komutları backend'de kullanmak istiyorum     | 5 SP        |
+| US08 | Bir kullanıcı olarak, arama sonucunda bana önerilen parfümleri görebilmek istiyorum       | 4 SP        |
+| US09 | Kullanıcının verdiği inputlara göre veritabanından eşleşen ürünleri filtrelemek istiyorum | 4 SP        |
+
+## 📆 Daily Scrum Tablosu
+
+| Tarih     | Yapılan İşler                                                | Notlar                                            |
+| --------- | ------------------------------------------------------------ | ------------------------------------------------- |
+| 7 Temmuz  | Search ve mevsim verisinin birlikte alınması                 | Frontend'den backend'e veri gönderimi test edildi |
+| 9 Temmuz  | Gemini API'ye ilk test bağlantısı                            | API anahtarı başarıyla çalıştırıldı               |
+| 11 Temmuz | Kullanıcı komutu ile Gemini'den gelen öneri metni çözümlendi | Filtreleme formatı netleşti                       |
+| 13 Temmuz | Gemini'den gelen komutlara göre veritabanı filtreleme        | SQL query yapısı oluşturuldu                      |
+| 15 Temmuz | Önerilen parfümler frontend'de gösterildi                    | Görsel boyutlandırma test edildi                  |
+| 17 Temmuz | Arayüz düzenlemeleri ve küçük hataların giderilmesi          | Buton-stil uyumsuzlukları düzeltildi              |
+| 20 Temmuz | Son testler + dokümantasyon + burndown chart çıkarıldı       | Sprint review hazırlandı                          |
+
+## 🔎 Sprint Review
+
+- ✅ Gemini API başarıyla entegre edildi ve test verileriyle denendi  
+- ✅ Kullanıcıdan alınan mevsim + arama girdileri backend'e başarıyla iletildi  
+- ✅ Gelen komutlar yorumlandı ve önerilen parfümler başarıyla filtrelendi  
+- ✅ Önerilen parfümler frontend'de görselleri ve açıklamalarıyla gösterildi  
+- 📌 Kullanıcı deneyimi açısından sade ve etkili bir sonuç elde edildi
+
+---
+## 🔁 Sprint Retrospective
+
+| 👍 İyi Gidenler | 🧠 Geliştirilebilecek Noktalar | 🎯 Aksiyonlar |
+|----------------|-------------------------------|---------------|
+| API bağlantısı sorunsuz gerçekleşti | Arayüzdeki kart yapısı daha erken ele alınmalıydı | UI bileşenleri Sprint 3’e taşındı |
+| Görev dağılımı net ve etkiliydi | Gemini’dan gelen yanıtlar bazen uzun sürdü | Hız optimizasyonları yapılacak |
+| Kodun okunabilirliği iyiydi | Kod modülerliği tam oturmadı | Kod refactor planlandı |
 
