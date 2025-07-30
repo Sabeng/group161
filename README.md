@@ -154,3 +154,55 @@ Projenin temel iskeletini kurmak, arayüz yapısını belirlemek ve kullanıcıd
 | Görev dağılımı net ve etkiliydi | Gemini’dan gelen yanıtlar bazen uzun sürdü | Hız optimizasyonları yapılacak |
 | Kodun okunabilirliği iyiydi | Kod modülerliği tam oturmadı | Kod refactor planlandı |
 
+# 🏃 Sprint 3: Kullanıcı Deneyimi, Son Testler ve Yayınlama
+## Trello Board
+<img width="1069" height="649" alt="Ekran görüntüsü 2025-07-30 210323" src="https://github.com/user-attachments/assets/6893f1ae-8c47-4581-a649-a8283f820e7c" />
+
+## Burn-Down Chart
+<img width="2400" height="1200" alt="sprint3_burndown_chart" src="https://github.com/user-attachments/assets/5f344e21-99db-48e3-b34f-7d5c8215564e" />
+
+## 🎯 Sprint Hedefi
+- ✅ Önerilen parfümlerin kullanıcı dostu kart yapısında gösterilmesi  
+- ✅ Son kullanıcı deneyimi testlerinin yapılması
+- ✅ Uygulamanın responsive hale getirilmesi 
+- ✅ Genel hata düzeltmeleri ve kod iyileştirmeleri
+
+---
+## User Story ve Story Point Tablosu
+- Sprint 3 için tamamlanacak görev puanı toplam 16 puan olarak belirlenmiştir. Görevlere zorluk seviyesine göre story pointler belirlenmiştir. Bu sprint için hedeflenen puan tamamlanmıştır.
+  
+| ID   | User Story                                                                                                  | Story Point |
+| ---- | ----------------------------------------------------------------------------------------------------------- | ----------- |
+| US10 | Ben bir kullanıcı olarak, önerilen parfümleri görsel ve açıklamayla birlikte şık kartlarda görmek istiyorum | 4 SP        |
+| US11 | Ben bir kullanıcı olarak, uygulamayı mobil cihazımda da rahatlıkla kullanmak istiyorum                      | 4 SP        |
+| US12 | Ben bir geliştirici olarak, uygulamayı yayına almak istiyorum                                               | 3 SP        |
+| US13 | Ben bir geliştirici olarak, sistemin genelini test etmek ve hataları düzeltmek istiyorum                    | 5 SP        |
+
+## 📆 Daily Scrum Tablosu
+
+| Tarih     | Yapılan İşler                                       | Notlar                                   |
+| --------- | --------------------------------------------------- | ---------------------------------------- |
+| 21 Temmuz | Öneri kartlarının ilk versiyonu ve görsel düzeni    | Tailwind kart yapısı hazırlandı          |
+| 23 Temmuz | Kartlara verilerin entegre edilmesi                 | API'den gelen sonuçlar UI'ye taşındı     |
+| 25 Temmuz | Responsive yapı için CSS düzenlemeleri              | Mobilde bozulmalar giderildi             |
+| 27 Temmuz | Uygulama genelinde test süreci ve hata düzeltmeleri | 3 hata çözüldü, 2 stil sorunu düzeltildi |
+| 29 Temmuz | Deploy süreci – Netlify yapılandırması              | Başarıyla yayına alındı                  |
+| 31 Temmuz | Kullanıcı testi ve geri bildirim toplanması         | Kart yazı boyutu önerisi alındı          |
+| 1 Ağustos | Sprint review + dokümantasyon tamamlama             | Proje sunumu hazırlandı                  |
+
+## 🔎 Sprint Review
+- ✅ Önerilen parfümler artık şık ve okunabilir kartlarda gösteriliyor
+- ✅ Uygulama hem masaüstü hem de mobilde sorunsuz çalışıyor
+- ✅ Kod düzenlemesi yapıldı, bileşenler sadeleştirildi
+- ✅ Kullanıcı testlerinden olumlu geri dönüşler alındı
+
+---
+## 🔁 Sprint Retrospective
+
+| 👍 İyi Gidenler                                 | 🧠 Geliştirilebilecek Noktalar        | 🎯 Aksiyonlar                              |
+| ----------------------------------------------- | ------------------------------------- | ------------------------------------------ |
+| Kart yapısı hem kullanıcı hem takımca beğenildi | Deploy süreci biraz zaman aldı        | Gelecekte CI/CD yapılandırması düşünülecek |
+| Responsive tasarım hatasız ilerledi             | Görsel boyutları optimize edilmemişti | Tüm görseller % olarak yeniden boyutlandı  |
+| Kullanıcı testleri planlı şekilde yapıldı       | Netlify log analizi eksikti           | Basit log takip sistemi entegre edilecek   |
+
+
